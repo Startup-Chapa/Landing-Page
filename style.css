@@ -167,6 +167,7 @@ textarea:focus-visible,
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: var(--color-white);
 }
 
 .hero-section h1 {

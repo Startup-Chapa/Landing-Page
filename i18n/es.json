@@ -1,0 +1,83 @@
+{
+    "headers": {
+        "title": "BiciGO - Muévete. Vive. Lima.",
+        "description": "BiciGO es una plataforma de bicicletas compartidas que te ayuda a moverte por Lima en recorridos cortos, de forma práctica, flexible y sostenible.",
+        "home": "Inicio",
+        "about": "Nosotros",
+        "benefits": "Beneficios",
+        "how": "¿Cómo funciona?",
+        "faq": "Preguntas frecuentes",
+        "contact": "Contacto"
+    },
+    "cta": {
+        "login": "Iniciar sesión",
+        "signup": "Regístrate"
+    },
+    "heroSection": {
+        "tagline": "MUÉVETE | VIVE | LIMA",
+        "slogan": "Una nueva forma de llegar a tu destino.",
+        "cta": "Empieza ahora"
+    },
+    "mission": {
+        "title": "Misión",
+        "content": "Nuestra misión es darle a Lima una forma práctica y sostenible de moverse en recorridos cortos. Queremos que cualquier persona pueda encontrar una bicicleta cerca, iniciar un viaje en segundos y llegar a su destino sin depender del tráfico, sin trámites complicados y con la confianza de que su viaje siempre está visible y bajo control."
+    },
+    "vision": {
+        "title": "Visión",
+        "content": "Nuestra visión es convertirnos en la opción de movilidad diaria para las personas que se desplazan por Lima, reduciendo el uso del auto en recorridos cortos y ayudando a construir una ciudad más limpia, rápida y accesible. Queremos que BiciGO esté presente en más distritos cada año, conectando personas, centros de trabajo y universidades a través de una red de bicicletas simple y confiable."
+    },
+    "benefits": {
+        "title": "Beneficios",
+        "benefit1": "Encuentra una bicicleta cerca de ti en segundos e inicia tu viaje sin largas esperas ni pasos complicados.",
+        "benefit2": "Evita el tráfico y ahorra tiempo en tus recorridos cortos por la ciudad.",
+        "benefit3": "Reduce tu huella de carbono al elegir una forma sostenible de moverte por Lima.",
+        "benefit4": "Paga solo por el tiempo que usas, con tarifas claras y sin cargos ocultos.",
+        "benefit5": "Sigue tu viaje activo, tu ruta y tu historial de recorridos desde tu celular en todo momento.",
+        "benefit6": "Muévete con seguridad gracias a bicicletas bien mantenidas y soporte disponible las 24 horas."
+    },
+    "howdoesitworkSection": {
+        "title": "¿Cómo funciona?",
+        "segment1": {
+            "title": "Estudiantes y ciudadanos",
+            "description": "Ubica la estación más cercana, escanea el código QR de la bicicleta e inicia tu viaje en segundos. Cuando termines, estaciónala en cualquier estación BiciGO y finaliza tu recorrido desde la app."
+        }
+    },
+    "rights": {
+        "content": "© 2026 BICIGO. Todos los derechos reservados."
+    },
+    "faq": {
+        "title": "Preguntas frecuentes",
+        "q1": {
+            "question": "¿Qué es BiciGO y cómo funciona?",
+            "answer": "BiciGO es un servicio de bicicletas compartidas para recorridos cortos en Lima. Encuentras una bicicleta cercana en la app, escaneas su código QR para desbloquearla, viajas hasta tu destino y la estacionas en cualquier estación BiciGO para finalizar tu viaje."
+        },
+        "q2": {
+            "question": "¿Dónde puedo encontrar bicicletas disponibles?",
+            "answer": "La app te muestra un mapa en tiempo real con las estaciones más cercanas y cuántas bicicletas hay disponibles en cada una, para que planifiques tu viaje antes de salir de casa."
+        },
+        "q3": {
+            "question": "¿Cuánto cuesta usar BiciGO?",
+            "answer": "Las tarifas se calculan según el tiempo de uso y siempre se muestran antes de iniciar el viaje. También puedes elegir planes mensuales si usas BiciGO con frecuencia."
+        },
+        "q4": {
+            "question": "¿Qué pasa si no encuentro un espacio libre para estacionar la bicicleta?",
+            "answer": "La app muestra la disponibilidad en tiempo real de las estaciones cercanas, para que puedas revisar con anticipación y elegir la más cercana con espacios libres y así finalizar tu viaje."
+        },
+        "q5": {
+            "question": "¿Qué debo hacer si tengo un problema durante mi viaje?",
+            "answer": "Puedes comunicarte con nuestro equipo de soporte directamente desde la app en cualquier momento. Si es una emergencia, sigue las instrucciones de seguridad que aparecen en pantalla y contacta a las autoridades locales si es necesario."
+        }
+    },
+    "contact": {
+        "title": "Contacto",
+        "name": "Nombre completo",
+        "phone": "Teléfono",
+        "email": "Correo electrónico",
+        "userType": "Tipo de usuario",
+        "type1": "Estudiante",
+        "type2": "Trabajador",
+        "type3": "Ciudadano",
+        "message": "Mensaje",
+        "send": "Enviar mensaje"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "headers": {
+        "title": "BiciGO - Move. Live. Lima.",
+        "description": "BiciGO is a bike-sharing platform that helps you get around Lima for short trips in a practical, flexible, and sustainable way.",
+        "home": "Home",
+        "about": "About Us",
+        "benefits": "Benefits",
+        "how": "How does it work?",
+        "faq": "FAQs",
+        "contact": "Contact"
+    },
+    "cta": {
+        "login": "Login",
+        "signup": "Sign Up"
+    },
+    "heroSection": {
+        "tagline": "MOVE | LIVE | LIMA",
+        "slogan": "A brand new way to get to your destination.",
+        "cta": "Get Started"
+    },
+    "mission": {
+        "title": "Mission",
+        "content": "Our mission is to give Lima a practical and sustainable way to get around for short trips. We want every person to be able to find a bike nearby, start a ride in seconds, and reach their destination without depending on traffic, without complicated processes, and with the confidence that their trip is always visible and under control."
+    },
+    "vision": {
+        "title": "Vision",
+        "content": "Our vision is to become the everyday mobility option for people who move through Lima, reducing the use of cars for short trips and helping build a cleaner, faster, and more accessible city. We want BiciGO to be present in more neighborhoods every year, connecting people, workplaces, and universities through a simple and reliable network of bicycles."
+    },
+    "benefits": {
+        "title": "Benefits",
+        "benefit1": "Find a bike near you in seconds and start your ride without long waits or complicated steps.",
+        "benefit2": "Skip traffic and save time on short trips across the city.",
+        "benefit3": "Reduce your carbon footprint by choosing a sustainable way to get around Lima.",
+        "benefit4": "Pay only for the time you use, with clear rates and no hidden fees.",
+        "benefit5": "Track your active ride, your route, and your trip history from your phone at all times.",
+        "benefit6": "Move safely with well-maintained bikes and 24/7 support if something goes wrong."
+    },
+    "howdoesitworkSection": {
+        "title": "How does it work?",
+        "segment1": {
+            "title": "Students and citizens",
+            "description": "Find the nearest station, scan the QR code on the bike, and start your ride in seconds. When you're done, park it at any BiciGO station and end your trip from the app."
+        }
+    },
+    "rights": {
+        "content": "© 2026 BICIGO. All rights reserved."
+    },
+    "faq": {
+        "title": "FAQs",
+        "q1": {
+            "question": "What is BiciGO and how does it work?",
+            "answer": "BiciGO is a bike-sharing service for short trips in Lima. You find a nearby bike in the app, scan its QR code to unlock it, ride to your destination, and park it at any BiciGO station to end your trip."
+        },
+        "q2": {
+            "question": "Where can I find available bikes?",
+            "answer": "The app shows you a live map with the nearest stations and how many bikes are available at each one, so you can plan your trip before you even leave home."
+        },
+        "q3": {
+            "question": "How much does it cost to use BiciGO?",
+            "answer": "Rates are based on ride time and are always shown before you start. You can also choose monthly plans if you use BiciGO regularly."
+        },
+        "q4": {
+            "question": "What happens if I can't find a free spot to park the bike?",
+            "answer": "The app shows real-time availability at nearby stations, so you can check ahead of time and choose the closest one with open spots to finish your ride."
+        },
+        "q5": {
+            "question": "What should I do if I have a problem during my ride?",
+            "answer": "You can reach our support team directly from the app at any time. If it's an emergency, follow the safety instructions shown on screen and contact local authorities if needed."
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "name": "Full name",
+        "phone": "Phone",
+        "email": "Email",
+        "userType": "User type",
+        "type1": "Student",
+        "type2": "Worker",
+        "type3": "Citizen",
+        "message": "Message",
+        "send": "Send Message"
+    }
+}
