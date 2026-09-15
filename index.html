@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiciGo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="assets/images/bicigo.png" alt="BiciGo Logo" width="80">
+        </div>
+        <div class="brand-name">BICIGO</div>
+        <ul class="nav-links">
+            <li><a href="#home" data-i18n="headers.home">Home</a></li>
+            <li><a href="#about" data-i18n="headers.about">About Us</a></li>
+            <li><a href="#benefits" data-i18n="headers.benefits">Benefits</a></li>
+            <li><a href="#how-works" data-i18n="headers.how">How does it work?</a></li>
+            <li><a href="#faq" data-i18n="headers.faq">FAQs</a></li>
+            <li><a href="#contact" data-i18n="headers.contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <div class="language-switcher" role="group" aria-label="Language switcher">
+                <button class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+                <button class="lang-btn" data-lang="es" aria-pressed="false">ES</button>
+            </div>
+            <button class="btn btn-white" data-i18n="cta.login">Login</button>
+            <button class="btn btn-gold" data-i18n="cta.signup">Sign Up</button>
+        </div>
+    </nav>
+ 
+    <!--Hero-->
+    <section class="hero-section section-padding" id="home">
+        <p class="hero-tagline" data-i18n="heroSection.tagline">MOVE | LIVE | LIMA</p>
+        <h1 data-i18n="heroSection.slogan">A brand new way to get to your destination.</h1>
+        <button class="btn btn-gold" data-i18n="heroSection.cta">Get Started</button>
+    </section>
+ 
+    <!-- Mission & Vision-->
+    <section class="mission-vision section-padding" id="about">
+ 
+        <!-- Mission -->
+        <div class="mv-row">
+            <div class="mv-image">
+                <img src="assets/images/mission-cover.png" alt="Mission image">
+            </div>
+            <div class="mv-content">
+                <h3 data-i18n="mission.title">Mission</h3>
+                <p data-i18n="mission.content">Our mission is</p>
+            </div>
+        </div>
+ 
+        <!--Vision-->
+        <div class="mv-row reverse">
+            <div class="mv-image">
+                <img src="assets/images/vision.png" alt="Vision image">
+            </div>
+            <div class="mv-content">
+                <h3 data-i18n="vision.title">Vision</h3>
+                <p data-i18n="vision.content">Our vision is</p>
+            </div>
+        </div>
+ 
+    </section>
+ 
+    <!--Benefits-->
+    <section class="section-padding" id="benefits">
+        <div class="section-header">
+            <h2 data-i18n="benefits.title">Benefits</h2>
+        </div>
+        <div class="cards-grid">
+            <div class="card">
+                <p data-i18n="benefits.benefit1">Benefit 1</p>
+            </div>
+            <div class="card">
+                <p data-i18n="benefits.benefit2">Benefit 2</p>
+            </div>
+            <div class="card">
+                <p data-i18n="benefits.benefit3">Benefit 3</p>
+            </div>
+            <div class="card">
+                <p data-i18n="benefits.benefit4">Benefit 4</p>
+            </div>
+            <div class="card">
+                <p data-i18n="benefits.benefit5">Benefit 5</p>
+            </div>
+            <div class="card">
+                <p data-i18n="benefits.benefit6">Benefit 6</p>
+            </div>
+        </div>
+    </section>
+ 
+    <!--How Does It Work-->
+    <section class="section-padding" id="how-works">
+        <div class="section-header">
+            <h2 data-i18n="howdoesitworkSection.title">How does it work?</h2>
+        </div>
+        <div class="cards-grid">
+            <div class="card">
+                <h4 data-i18n="howdoesitworkSection.segment1.title">segmento1</h4>
+                <p data-i18n="howdoesitworkSection.segment1.description">segmento1</p>
+            </div>
+            <div class="card">
+                <h4 data-i18n="howdoesitworkSection.segment2.title">segmento2</h4>
+                <p data-i18n="howdoesitworkSection.segment2.description">segmento2</p>
+            </div>
+        </div>
+    </section>
+ 
+     <!--Contact-->
+    <section class="section-padding" id="contact">
+        <div class="section-header">
+            <h2 data-i18n="contact.title">Contact</h2>
+        </div>
+        <div class="contact-section">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="contact-name" data-i18n="contact.name">Full name</label>
+                    <input type="text" id="contact-name" class="form-control" autocomplete="name">
+                </div>
+                <div class="form-group">
+                    <label for="contact-phone" data-i18n="contact.phone">Phone</label>
+                    <input type="tel" id="contact-phone" class="form-control" autocomplete="tel">
+                </div>
+                <div class="form-group">
+                    <label for="contact-email" data-i18n="contact.email">Email</label>
+                    <input type="email" id="contact-email" class="form-control" autocomplete="email">
+                </div>
+                <div class="form-group">
+                    <span data-i18n="contact.userType">User type</span>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="user-type" value="student">
+                            <span data-i18n="contact.type1">Student</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="user-type" value="worker">
+                            <span data-i18n="contact.type2">Worker</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="user-type" value="citizen">
+                            <span data-i18n="contact.type3">Citizen</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="contact-message" data-i18n="contact.message">Message</label>
+                    <textarea id="contact-message" class="form-control" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-gold" data-i18n="contact.send">Send Message</button>
+            </form>
+            <div class="contact-image">
+                <img src="assets/images/aesthetic-cover-photo.png" alt="Contact image">
+            </div>
+        </div>
+    </section>
+ 
+    <!--FAQ -->
+    <section class="section-padding faq-container" id="faq">
+        <div class="section-header">
+            <h2 data-i18n="faq.title">FAQs</h2>
+        </div>
+        <ul class="faq-list">
+            <li class="faq-item" tabindex="0" role="button" aria-expanded="false" onclick="toggleFaq(this)" onkeydown="handleFaqKeydown(event, this)">
+                <span data-i18n="faq.q1.question">What is BiciGo and how does it work?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+                <div class="faq-answer">
+                    <p data-i18n="faq.q1.answer">BiciGo is a.</p>
+                </div>
+            </li>
+            <li class="faq-item" tabindex="0" role="button" aria-expanded="false" onclick="toggleFaq(this)" onkeydown="handleFaqKeydown(event, this)">
+                <span data-i18n="faq.q2.question">Faq2</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+                <div class="faq-answer">
+                    <p data-i18n="faq.q2.answer">Faq2.</p>
+                </div>
+            </li>
+            <li class="faq-item" tabindex="0" role="button" aria-expanded="false" onclick="toggleFaq(this)" onkeydown="handleFaqKeydown(event, this)">
+                <span data-i18n="faq.q3.question">Faq3</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+                <div class="faq-answer">
+                    <p data-i18n="faq.q3.answer">Faq3.</p>
+                </div>
+            </li>
+            <li class="faq-item" tabindex="0" role="button" aria-expanded="false" onclick="toggleFaq(this)" onkeydown="handleFaqKeydown(event, this)">
+                <span data-i18n="faq.q4.question">Faq4</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+                <div class="faq-answer">
+                    <p data-i18n="faq.q4.answer">Faq4.</p>
+                </div>
+            </li>
+            <li class="faq-item" tabindex="0" role="button" aria-expanded="false" onclick="toggleFaq(this)" onkeydown="handleFaqKeydown(event, this)">
+                <span data-i18n="faq.q5.question">Faq5</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+                <div class="faq-answer">
+                    <p data-i18n="faq.q5.answer">Faq5.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+ 
+    <!--Footer-->
+    <footer class="footer">
+        <img class="footer-logo" src="assets/images/bicigo.png" alt="BiciGo Logo">
+        <div class="social-icons">
+            <a href="#" aria-label="Twitter">&#x1F426;</a>
+            <a href="#" aria-label="Instagram">&#x1F4F7;</a>
+            <a href="#" aria-label="Link">&#x1F517;</a>
+        </div>
+        <p class="footer-bottom" data-i18n="rights.content">© 2026 BICIGO. All rights reserved.</p>
+    </footer>
+ 
+    <script>
+        const i18nConfig = {
+            defaultLanguage: 'en',
+            supportedLanguages: ['en', 'es']
+        };
+ 
+        let translations = { en: {}, es: {} };
+ 
+        function getNestedValue(obj, path) {
+            if (!obj || Object.keys(obj).length === 0) return null;
+            return path.split('.').reduce((current, prop) => current?.[prop], obj);
+        }
+ 
+        function applyTranslations(language) {
+            if (Object.keys(translations[language]).length === 0) {
+                console.warn(`Translations for ${language} are empty.`);
+                return;
+            }
+            document.querySelectorAll('[data-i18n]').forEach(element => {
+                const key = element.getAttribute('data-i18n');
+                const text = getNestedValue(translations[language], key);
+                if (text) {
+                    element.innerHTML = text;
+                } else {
+                    console.warn(`Missing translation key: ${key}`);
+                }
+            });
+        }
+ 
+        function setLanguage(language) {
+            if (!i18nConfig.supportedLanguages.includes(language)) {
+                language = i18nConfig.defaultLanguage;
+            }
+            localStorage.setItem('language', language);
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                const isActive = btn.getAttribute('data-lang') === language;
+                btn.classList.toggle('active', isActive);
+                btn.setAttribute('aria-pressed', isActive);
+            });
+            document.documentElement.lang = language;
+            applyTranslations(language);
+        }
+ 
+        async function loadTranslations() {
+            try {
+                const cacheBuster = new Date().getTime();
+                const [enResponse, esResponse] = await Promise.all([
+                    fetch(`./i18n/en.json?v=${cacheBuster}`),
+                    fetch(`./i18n/es.json?v=${cacheBuster}`)
+                ]);
+                if (!enResponse.ok || !esResponse.ok) {
+                    throw new Error("JSON files not found");
+                }
+                translations.en = await enResponse.json();
+                translations.es = await esResponse.json();
+                const savedLanguage = localStorage.getItem('language') || i18nConfig.defaultLanguage;
+                setLanguage(savedLanguage);
+            } catch (error) {
+                console.error('Error loading translations:', error);
+                alert("Error loading languages.\n\nMake sure you're using a local server (like Live Server).");
+            }
+        }
+ 
+        function initLanguageSwitcher() {
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.addEventListener('click', () => setLanguage(btn.getAttribute('data-lang')));
+            });
+        }
+ 
+        function toggleFaq(item) {
+            const isOpen = item.classList.contains('open');
+            document.querySelectorAll('.faq-item').forEach(el => {
+                el.classList.remove('open');
+                el.setAttribute('aria-expanded', 'false');
+                el.querySelector('.faq-icon').textContent = '+';
+            });
+            if (!isOpen) {
+                item.classList.add('open');
+                item.setAttribute('aria-expanded', 'true');
+                item.querySelector('.faq-icon').textContent = '−';
+            }
+        }
+ 
+        function handleFaqKeydown(event, item) {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                toggleFaq(item);
+            }
+        }
+ 
+        document.addEventListener('DOMContentLoaded', () => {
+            loadTranslations().then(() => initLanguageSwitcher());
+        });
+    </script>
+</body>
+</html>
