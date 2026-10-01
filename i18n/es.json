@@ -7,6 +7,7 @@
         "benefits": "Beneficios",
         "how": "¿Cómo funciona?",
         "faq": "Preguntas frecuentes",
+        "plans": "Planes",
         "contact": "Contacto"
     },
     "cta": {
@@ -79,5 +80,22 @@
         "type3": "Ciudadano",
         "message": "Mensaje",
         "send": "Enviar mensaje"
+    },
+    "plans": {
+        "title": "Planes",
+        "fee": {
+            "title": "Plan Tarifa",
+            "highlight": "Costo por el recorrido que hayas hecho",
+            "f1": "Sin pagos mensuales",
+            "f2": "Ideal para viajes ocasionales"
+        },
+        "pro": {
+            "title": "Suscripción Pro",
+            "highlight": "Costo por el uso ilimitado",
+            "f1": "Pago único mensual",
+            "f2": "Ideal para viajes frecuentes",
+            "f3": "Viajes ilimitados",
+            "price": "S/ 30.00 al mes"
+        }
     }
 }

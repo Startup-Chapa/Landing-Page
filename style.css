@@ -484,6 +484,75 @@ textarea.form-control {
 }
 
 /* =======
+   Plans
+   ======= */
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-xl);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.plan-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.plan-card h4 {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.plan-card .plan-highlight {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+}
+
+.plan-features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  text-align: left;
+  flex: 1;
+  font-size: 14px;
+}
+
+.plan-features li {
+  position: relative;
+  padding-left: var(--space-lg);
+}
+
+.plan-features li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+}
+
+.plan-card-pro {
+  background-color: var(--color-primary-dark);
+  color: var(--color-white);
+}
+
+.plan-card-pro .plan-highlight,
+.plan-card-pro .plan-features li::before {
+  color: #CFF59A;
+}
+
+.plan-card .plan-price {
+  font-family: var(--font-primary);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-white);
+  text-align: center;
+}
+
+/* =======
    Responsive Design
    ======= */
 @media (max-width: 992px) {

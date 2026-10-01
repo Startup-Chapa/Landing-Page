@@ -7,6 +7,7 @@
         "benefits": "Benefits",
         "how": "How does it work?",
         "faq": "FAQs",
+        "plans": "Plans",
         "contact": "Contact"
     },
     "cta": {
@@ -79,5 +80,22 @@
         "type3": "Citizen",
         "message": "Message",
         "send": "Send Message"
+    },
+    "plans": {
+        "title": "Plans",
+        "fee": {
+            "title": "Fee Plan",
+            "highlight": "Pay only for the rides you take",
+            "f1": "No monthly payments",
+            "f2": "Ideal for occasional trips"
+        },
+        "pro": {
+            "title": "Pro Subscription",
+            "highlight": "Pay for unlimited use",
+            "f1": "Single monthly payment",
+            "f2": "Ideal for frequent trips",
+            "f3": "Unlimited trips",
+            "price": "S/ 30.00 per month"
+        }
     }
 }
