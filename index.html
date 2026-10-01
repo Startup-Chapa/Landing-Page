@@ -23,6 +23,11 @@
             <li><a href="#plans" data-i18n="headers.plans">Plans</a></li>
             <li><a href="#contact" data-i18n="headers.contact">Contact</a></li>
         </ul>
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <div class="nav-actions">
             <div class="language-switcher" role="group" aria-label="Language switcher">
                 <button class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
@@ -106,7 +111,7 @@
             </div>
         </div>
     </section>
- 
+    
      <!--Contact-->
     <section class="section-padding" id="contact">
         <div class="section-header">
@@ -154,6 +159,33 @@
             </div>
         </div>
     </section>
+
+    <!--Plans-->
+    <section class="section-padding" id="plans">
+        <div class="section-header">
+            <h2 data-i18n="plans.title">Plans</h2>
+        </div>
+        <div class="plans-grid">
+            <div class="card plan-card">
+                <h4 data-i18n="plans.fee.title">Fee Plan</h4>
+                <p class="plan-highlight" data-i18n="plans.fee.highlight">Pay only for the rides you take</p>
+                <ul class="plan-features">
+                    <li data-i18n="plans.fee.f1">No monthly payments</li>
+                    <li data-i18n="plans.fee.f2">Ideal for occasional trips</li>
+                </ul>
+            </div>
+        <div class="card plan-card plan-card-pro">
+            <h4 data-i18n="plans.pro.title">Pro Subscription</h4>
+                <p class="plan-highlight" data-i18n="plans.pro.highlight">Pay for unlimited use</p>
+                <ul class="plan-features">
+                    <li data-i18n="plans.pro.f1">Single monthly payment</li>
+                    <li data-i18n="plans.pro.f2">Ideal for frequent trips</li>
+                    <li data-i18n="plans.pro.f3">Unlimited trips</li>
+                </ul>
+                <p class="plan-price" data-i18n="plans.pro.price">S/ 30.00 per month</p>
+            </div>
+        </div>
+    </section>
  
     <!--FAQ -->
     <section class="section-padding faq-container" id="faq">
@@ -197,33 +229,6 @@
                 </div>
             </li>
         </ul>
-    </section>
-
-    <!--Plans-->
-    <section class="section-padding" id="plans">
-        <div class="section-header">
-            <h2 data-i18n="plans.title">Plans</h2>
-        </div>
-        <div class="plans-grid">
-            <div class="card plan-card">
-                <h4 data-i18n="plans.fee.title">Fee Plan</h4>
-                <p class="plan-highlight" data-i18n="plans.fee.highlight">Pay only for the rides you take</p>
-                <ul class="plan-features">
-                    <li data-i18n="plans.fee.f1">No monthly payments</li>
-                    <li data-i18n="plans.fee.f2">Ideal for occasional trips</li>
-                </ul>
-            </div>
-        <div class="card plan-card plan-card-pro">
-            <h4 data-i18n="plans.pro.title">Pro Subscription</h4>
-                <p class="plan-highlight" data-i18n="plans.pro.highlight">Pay for unlimited use</p>
-                <ul class="plan-features">
-                    <li data-i18n="plans.pro.f1">Single monthly payment</li>
-                    <li data-i18n="plans.pro.f2">Ideal for frequent trips</li>
-                    <li data-i18n="plans.pro.f3">Unlimited trips</li>
-                </ul>
-                <p class="plan-price" data-i18n="plans.pro.price">S/ 30.00 per month</p>
-            </div>
-        </div>
     </section>
  
     <!--Footer-->
@@ -330,6 +335,36 @@
         document.addEventListener('DOMContentLoaded', () => {
             loadTranslations().then(() => initLanguageSwitcher());
         });
+
+        function initMobileMenu() {
+            const btn = document.getElementById('hamburger-btn');
+            const navLinks = document.querySelector('.nav-links');
+            const navbar = document.querySelector('.navbar');
+            
+            if (!btn || !navLinks || !navbar) return;
+            
+            const closeMenu = () => {
+                navLinks.classList.remove('open');
+                navbar.classList.remove('menu-open');
+                btn.classList.remove('open');
+                btn.setAttribute('aria-expanded', 'false');
+            };
+
+            btn.addEventListener('click', () => {
+                const isOpen = navLinks.classList.toggle('open');
+                navbar.classList.toggle('menu-open', isOpen);
+                btn.classList.toggle('open', isOpen);
+                btn.setAttribute('aria-expanded', isOpen);
+            });
+        
+            navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', closeMenu);
+            });
+        }
+
+            document.addEventListener('DOMContentLoaded', () => {
+                initMobileMenu();
+            });
     </script>
 </body>
 </html>
